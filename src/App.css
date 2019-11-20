@@ -1,0 +1,124 @@
+html {
+    background-color: darkslategray;
+}
+p {
+    margin:0;
+    padding:0;
+    border: 0;
+}
+.App-header {
+    display: block;
+    text-align: center;
+}
+
+.nav {
+    display: block;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    background-color: orangered;
+    border-bottom: 3px solid white;
+    border-right: 3px solid white;
+    border-left: 3px solid white;
+}
+
+.navLogo {
+    font-size: 24px;
+    padding-right: 30px;
+}
+
+.navAdopt {
+    font-size: 24px;
+    padding-left: 30px
+}
+
+.navSearch {
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.navAbUs {
+    font-size: 24px;
+    padding-left: 30px;
+    float: right;
+    padding-right: 21px;
+}
+
+.navButt {
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+
+/* 
+*********************************************
+CONTENT
+
+*********************************************
+*/
+
+.content {
+    display: flex;
+    flex-direction: row;
+    max-width: 3000px;
+}
+
+.image-gallery-container {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.image-gallery {
+    min-width: 1000px;
+    max-width: 80%;
+    
+}
+.image-gallery-thumbnails {
+    display: none;
+}
+
+.adopt-title {
+    left: 273px;
+    z-index: 2;
+    position: absolute;
+    font-size: 18px;
+    font-weight: 702;
+}
+
+.doggo-info {
+    display: flex;
+    flex-direction: row;
+    z-index: 2;
+    font-size: 51px;
+    margin-left: 12px;
+}
+
+.doggo-name {width: 700px;}
+
+.doggo-age {width: 700px;}
+
+.doggo-breed {width: 700px;}
+
+.content-fixed {width: 700px;}
+
+.doggo-weight {width: 700px;}
+
+.content-location {width: 700px;}
+
+.right-column-shelters {
+    flex-direction: column;
+    position: absolute;
+    width: 255px;
+    height: 2000px;
+    font-size: 45px;
+    right: 0px;
+    padding-left: 12px;
+    border-left: 3px solid white;
+}
+
+.right-column-title {
+    display: block;
+    text-decoration: underline;
+    font-size: 60px;
+}
